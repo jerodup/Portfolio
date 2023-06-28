@@ -1,0 +1,15 @@
+.contenedor-tecnologias{
+  margin: 50px 0 50px 0;
+}
+
+.contenedor-tecnologias h2{
+  margin: 15px 0 15px 0;
+}
+
+.lista-de-tecnologias{
+  display: grid;
+  grid-template-columns: repeat( auto-fit, minmax(100px, 1fr));
+  gap: 20px;
+  list-style: none;
+  text-align: center;
+}

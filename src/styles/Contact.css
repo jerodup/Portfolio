@@ -1,0 +1,60 @@
+form {
+  display: flex;
+  flex-direction: column;
+  max-width: 600px;
+  margin: auto;
+  padding: 20px;
+}
+
+label {
+  margin-bottom: 8px;
+  font-family: 'Overpass', sans-serif;
+}
+
+input,
+textarea {
+  padding: 8px;
+  margin-bottom: 16px;
+  border-radius: 4px;
+  border: none;
+  width: 100%; 
+  resize: none;
+  outline: none;
+}
+textarea{
+  height: 100px;
+}
+
+
+button {
+  padding: 8px 16px;
+  background-color: #262626;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: 200ms ease-in;
+}
+
+button:hover{
+  background-color: #404040;
+}
+
+
+
+@media (max-width: 600px) {
+  form {
+    max-width: 100%;
+  }
+}
+
+@media (max-width: 400px) {
+  input,
+  textarea {
+    padding: 6px;
+  }
+
+  button {
+    padding: 6px 12px;
+  }
+}

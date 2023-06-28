@@ -1,0 +1,15 @@
+.titulo-contenedor{
+  margin: 0px 0 100px 0;
+  height: 100vh;
+  display: flex;
+  
+}
+
+.titulo-contenedor h1{
+  font-size: 7rem;
+  opacity: 0;
+  font-family: 'Inter', sans-serif;
+  text-transform: uppercase;
+  align-self: center;
+}
+
