@@ -1,5 +1,4 @@
 .titulo-contenedor{
-  margin: 0px 0 100px 0;
   height: 100vh;
   display: flex;
   
@@ -13,3 +12,13 @@
   align-self: center;
 }
 
+@media (max-width: 1000px){
+  .titulo-contenedor h1{
+    font-size: 4rem;
+  }
+}
+@media (max-width: 500px){
+  .titulo-contenedor h1{
+    font-size: 3rem;
+  }
+}

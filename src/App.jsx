@@ -14,11 +14,8 @@ function App() {
       <MenuHamburguesa />
       <Home />
       <AcercaDeMi />
-      <Tecnologias />
-    </div>
-    <div className='tecnologias--img'></div>
-    <div className="conteiner2">
       <Proyectos />
+      <Tecnologias />
       <Contact />
     </div>
     </>

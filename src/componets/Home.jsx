@@ -11,8 +11,8 @@ export default function Home() {
   }, []);
 
   return (
-    <div className="titulo-contenedor">
-      <h1 className="animation">Diseñador
+    <div id="inicio" className="titulo-contenedor">
+      <h1 className="animation">UI/UX y
       <span><br/> web developer</span></h1>
     </div>
   );

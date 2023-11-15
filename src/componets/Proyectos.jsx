@@ -4,10 +4,10 @@ import { ScrollTrigger } from "gsap/ScrollTrigger";
 import { VscGithub } from "react-icons/vsc";
 gsap.registerPlugin(ScrollTrigger);
 
-import img1 from "../assets/proyecto-1.jpg";
-import img2 from "../assets/proyecto-2.jpg";
-import img3 from "../assets/proyecto-3.jpg";
-import img4 from "../assets/proyecto-4.jpg";
+import img1 from "../assets/poke.png";
+import img2 from "../assets/peliculas.png";
+import img3 from "../assets/lista.png";
+import img4 from "../assets/calculadora.png";
 
 import "../styles/Proyectos.css";
 
@@ -43,9 +43,10 @@ export const Proyectos = () => {
     },
     {
       img: img2,
-      titulo: "calculadora",
-      descripcion: "Una calculadora hecha a base de react",
+      titulo: "web de peliculas",
+      descripcion: "Un juego hecho a base de react y una API gratuita",
     },
+    
     {
       img: img3,
       titulo: "Lista de tareas",
@@ -53,14 +54,28 @@ export const Proyectos = () => {
     },
     {
       img: img4,
-      titulo: "web de peliculas",
-      descripcion: "Un juego hecho a base de react y una API gratuita",
+      titulo: "calculadora",
+      descripcion: "Una calculadora hecha a base de react",
     },
+   
   ];
 
   return (
     <div id="proyectos" className="p-conteiner">
-      <h2>Proyectos</h2>
+      <div className="bg-img-conteiner">
+        <div className="titulo-proyectos">
+          <h2>Proyectos</h2>
+          <a
+            href="https://github.com/jerodup?tab=repositories"
+            className="github"
+            target="blank"
+          >
+            {" "}
+            <VscGithub />{" "}
+          </a>
+        </div>
+      </div>
+
       <div className="proyectos" ref={aRef3}>
         {imgs.map((x) => (
           <div key={x.titulo}>
@@ -70,10 +85,6 @@ export const Proyectos = () => {
             <p>{x.titulo}</p>
           </div>
         ))}
-      </div>
-      <div className="git-conteiner">
-      <a href="https://github.com/jerodup" className="github" target="blank"> <VscGithub /> </a>
-
       </div>
     </div>
   );

@@ -1,9 +1,10 @@
 .contenedor-tecnologias{
-  margin: 50px 0 50px 0;
+  margin: 150px 0 150px 0;
 }
 
 .contenedor-tecnologias h2{
-  margin: 15px 0 15px 0;
+  margin: 15px 0 0 0;
+  text-align: center;
 }
 
 .lista-de-tecnologias{

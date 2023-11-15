@@ -1,9 +1,5 @@
 
-.acerca-de-mi h2{
-  text-align: center;
-  font-size: 45px;
-  margin-bottom: 50px;
-}
+
 .acerca-de-mi--info{
   display: grid;
   grid-template-columns: repeat( auto-fit, minmax(250px, 1fr) );
@@ -11,7 +7,7 @@
 }
 
 .acerca-de-mi--info img{
-  width: 100%;
+  width: 85%;
   filter: grayscale(1);
   transition: 300ms ease-in;
 }
@@ -22,4 +18,10 @@
 .presentacion{
   font-size: 25px;
   margin-bottom: 20px;
+}
+
+@media (max-width: 800px){
+  .acerca-de-mi--info img{
+    width: 100%;
+  }
 }

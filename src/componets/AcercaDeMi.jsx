@@ -1,4 +1,4 @@
-import dev from "../assets/dev.jpg";
+import dev from "../assets/me.png";
 import { useEffect, useRef } from "react";
 import { gsap } from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
@@ -40,7 +40,7 @@ export const AcercaDeMi = () => {
       <h2 ref={aRef2}>Acerca de mi </h2>
       <div className="acerca-de-mi--info" ref={aRef}>
         <div>
-          <img src={dev} alt="imagen de desrrollador" />
+          <img src={dev} alt="imagen de desrrollador"/>
         </div>
         <div className="texto">
           <p className="presentacion">
